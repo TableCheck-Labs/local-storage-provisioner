@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  local-path-provisioner:
+  - apiVersion: v1
+    appVersion: v0.0.25-dev
+    created: "2024-03-17T08:26:05.283373439Z"
+    description: Use HostPath for persistent local storage with Kubernetes
+    digest: 871ec1a7b178108409304b6bafa62c142b89bb41822fba4a4e22c581233074d2
+    home: https://github.com/rancher/local-path-provisioner
+    keywords:
+    - storage
+    - hostpath
+    kubeVersion: '>=1.12.0-r0'
+    name: local-path-provisioner
+    sources:
+    - https://github.com/rancher/local-path-provisioner.git
+    urls:
+    - https://tablecheck-labs.github.io/local-storage-provisioner/local-path-provisioner-0.0.25-dev.tgz
+    version: 0.0.25-dev
+generated: "2024-03-17T08:26:05.28275181Z"
